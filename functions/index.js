@@ -108,8 +108,10 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure: true,
   auth: {
-    user: "regroup.info.emails@gmail.com",
-    pass: "utujrywqkzbptzet",
+    // Set these in functions/.env (not committed), e.g.:
+    // GMAIL_USER=...   GMAIL_APP_PASSWORD=...
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
   },
 });
 // Create a function to send email
@@ -124,7 +126,7 @@ exports.sendMailOverHTTP = functions.https.onRequest((req, res) => {
     const message = req.body.message;
     // config the email message
     const mailOptions = {
-      from: "regroup.info.emails@gmail.com",
+      from: process.env.GMAIL_USER,
       to: email,
       subject: subject,
       text: message,
