@@ -10,23 +10,15 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.11.15",
-    "@mui/styled-engine-sc": "^5.11.11",
     "@react-google-maps/api": "^2.18.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
-    "cors": "^2.8.5",
     "daisyui": "^2.51.5",
     "firebase": "^9.19.1",
-    "firebase-admin": "^11.5.0",
-    "firebase-functions": "^4.2.1",
     "framer-motion": "^10.11.2",
     "mdb-react-ui-kit": "^6.0.0",
-    "next": "^13.2.4",
-    "node-fetch": "^3.3.1",
-    "node-notifier": "^10.0.1",
-    "nodemailer": "^6.9.1",
     "primeicons": "^6.0.1",
     "primereact": "^9.2.2",
     "randomcolor": "^0.6.2",
@@ -37,15 +29,13 @@
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.2",
-    "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "next dev"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

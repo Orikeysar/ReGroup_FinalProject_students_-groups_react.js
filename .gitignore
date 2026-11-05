@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# dependencies in any folder
+node_modules/
+
+# secrets for Cloud Functions
+functions/.env
+functions/.env.*
+
+# emulator logs
+*-debug.log
